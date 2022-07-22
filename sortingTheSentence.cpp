@@ -19,9 +19,9 @@ string sortSentence (string s) {
             ans += pos[i];
             ans.push_back(' ');
         }
-        ans.pop_back();
-        return ans;
     }
+     ans.pop_back();
+     return ans;
 }
 
 int main () {
